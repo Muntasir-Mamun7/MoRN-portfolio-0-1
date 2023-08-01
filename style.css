@@ -1,0 +1,31 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+h1 {
+ font-size: 50px;
+}
+
+.baymax-text {
+    color: red;
+}
+.des-1 {
+    font-weight: bold;
+    font-size: large;
+}
+
+.button-hire-me {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5px;
+}
+.middle-div {
+    display: flex;
+}
+
+.baymax-image {
+    width: 700px;
+}
