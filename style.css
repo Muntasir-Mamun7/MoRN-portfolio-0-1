@@ -1,4 +1,5 @@
-body {
+body { margin: 0px;
+    padding: 0px;
     font-family: 'Poppins', sans-serif;
 }
 h1 {
@@ -14,18 +15,30 @@ h1 {
 }
 
 .button-hire-me {
-    background-color: red;
+    background-image: linear-gradient(red, tomato
+);
     color: white;
     border: none;
     padding: 10px;
     padding-left: 25px;
     padding-right: 25px;
     border-radius: 5px;
+    font-weight: 700px;
+    
 }
-.middle-div {
-    display: flex;
+.middle-section{
+display: flex;
+background-image: url(images/top-banner.png);
+background-repeat: no-repeat;
 }
-
 .baymax-image {
     width: 700px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+
+.half-width img {
+    width: 80%;
 }
