@@ -24,12 +24,14 @@ h1 {
     padding-right: 25px;
     border-radius: 5px;
     font-weight: 700px;
+    cursor: pointer;
     
 }
 .middle-section{
 display: flex;
 background-image: url(images/top-banner.png);
 background-repeat: no-repeat;
+margin-bottom: 100px;
 }
 .baymax-image {
     width: 700px;
@@ -42,3 +44,17 @@ background-repeat: no-repeat;
 .half-width img {
     width: 80%;
 }
+
+
+.dream-big {
+    display: flex;
+    flex-direction: row-reverse;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.mark {
+    color: red;
+}
+
